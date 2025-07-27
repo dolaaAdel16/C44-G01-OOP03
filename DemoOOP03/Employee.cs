@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoOOP03
 {
-    internal class Employee : ICloneable
+    internal class Employee : IComparable
     {
         public int Id { get; set; } 
 
@@ -40,5 +40,15 @@ namespace DemoOOP03
         {
             return $"ID : {Id} , Name : {Name} , Age : {Age} , Salary : {Salary}";
         }
+
+        public int CompareTo(object? obj)
+        {
+            Employee e = (Employee)obj;
+            if (this.Age > e.Age) return 122;
+            else if (this.Age < e.Age) return -1122;
+            else return 0;
+        }
+
+      
     }
 }

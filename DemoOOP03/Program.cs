@@ -198,8 +198,29 @@ namespace DemoOOP03
             #endregion
 
 
+            #region V07
+            //Console.WriteLine("V07");
 
+            //Employee[] employees = new Employee[3]
+            //{
+            //    new Employee(){Id = 1 , Name = "Ahmed" , Age = 30 , Salary = 12000},
+            //    new Employee(){Id = 2 , Name = "Amr" , Age = 22 , Salary = 15000},
+            //    new Employee(){Id = 3 , Name = "Mostafa" , Age = 23 , Salary = 16000}
 
+            //};
+
+            //Array.Sort(employees);
+
+            ////int X  = employees[1].CompareTo(employees[0]);
+
+            //foreach (Employee item in employees)
+            //{
+
+            //    Console.WriteLine(item);
+            //}
+            ////Console.WriteLine(X);
+
+            #endregion
 
 
 
