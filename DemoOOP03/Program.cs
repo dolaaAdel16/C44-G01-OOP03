@@ -1,8 +1,57 @@
-﻿namespace DemoOOP03
+using DemoOOP03.Interface;
+using DemoOOP03.Interface_Ex01;
+using DemoOOP03.Interface_Ex02;
+using DemoOOP03.Interface_Ex03;
+
+namespace DemoOOP03
 {
     internal class Program
     {
-        static void Main(string[] args)
+
+        //static void PrintTenNumbers(SeriesByTwo series)
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Console.WriteLine($"{ series.Current}");
+        //        series.Next();
+        //    }
+        //    Console.WriteLine();
+        //    series.Reset();
+        //}
+
+        //static void PrintTenNumbers(SeriesByThree series)
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Console.WriteLine($"{series.Current}");
+        //        series.Next();
+        //    }
+        //    Console.WriteLine();
+        //    series.Reset();
+        //}
+
+        //static void PrintTenNumbers(SeriesByFour series)
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Console.WriteLine($"{series.Current}");
+        //        series.Next();
+        //    }
+        //    Console.WriteLine();
+        //    series.Reset();
+        //}
+
+        //static void PrintTenNumbers(ISeries series)
+        //{
+        //    for (int i = 0; i < 10; i++)
+        //    {
+        //        Console.WriteLine($"{series.Current}");
+        //        series.Next();
+        //    }
+        //    Console.WriteLine();
+        //    series.Reset();
+        //}
+        static void Main()
         {
             #region V01
             //Console.WriteLine("V01");  
@@ -77,7 +126,6 @@
             //flyabe.Forward();    
             #endregion
 
-            J
 
 
         }
