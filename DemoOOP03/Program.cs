@@ -179,6 +179,27 @@ namespace DemoOOP03
             //Console.WriteLine(Arr01[0]); 
             #endregion
 
+            #region V06
+            //Console.WriteLine("V05");
+
+            //Employee E01 = new Employee() { Id = 1, Name = "Ahmed", Age = 22, Salary = 12000 };
+            //Employee E02 = new Employee() { Id = 3, Name = "AMR", Age = 26, Salary = 14000 };
+
+            ////E02 = E01;
+            //E02 = (Employee)E01.Clone();
+            //E02 = new Employee(E01);
+
+            //E01.Salary = 5; 
+
+            //Console.WriteLine(E01.GetHashCode());
+            //Console.WriteLine(E02.GetHashCode());
+            //Console.WriteLine(E01);
+            //Console.WriteLine(E02); 
+            #endregion
+
+
+
+
 
 
 

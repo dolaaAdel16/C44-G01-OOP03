@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoOOP03
 {
-    internal class Employee 
+    internal class Employee : ICloneable
     {
         public int Id { get; set; } 
 
@@ -15,6 +15,26 @@ namespace DemoOOP03
         public int Age { get; set; }    
 
         public double Salary { get; set; }
+
+        public Employee()
+        {
+
+        }
+
+        public Employee(Employee employee)
+        {
+            Id = employee.Id;   
+            Name = employee.Name;       
+            Age = employee.Age;     
+            Salary = employee.Salary;   
+
+        }
+
+        public object Clone()
+        {
+            return new Employee(this);
+            //return new Employee() { Id = this.Id , Name = this.Name , Age = this.Age , Salary = this.Salary};
+        }
 
         public override string ToString()
         {
