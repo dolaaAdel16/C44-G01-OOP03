@@ -7,7 +7,7 @@ namespace DemoOOP03
 {
     internal class Program
     {
-        static void Main()
+        //static void Main()
 
         //static void PrintTenNumbers(SeriesByTwo series)
         //{
@@ -52,8 +52,8 @@ namespace DemoOOP03
         //    Console.WriteLine();
         //    series.Reset();
         //}
-        static void Main()
-        {
+        //static void Main()
+        //{
             #region Q01
             //Q01 
             //Question 1:
@@ -236,4 +236,4 @@ namespace DemoOOP03
 
         }
     }
-}
+
