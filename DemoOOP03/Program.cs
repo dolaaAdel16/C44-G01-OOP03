@@ -1,6 +1,7 @@
 ﻿using DemoOOP03.Interface;
 using DemoOOP03.Interface_Ex01;
 using DemoOOP03.Interface_Ex02;
+using DemoOOP03.Interface_Ex03;
 
 namespace DemoOOP03
 {
@@ -75,7 +76,8 @@ namespace DemoOOP03
             //myType.print(); 
             #endregion
 
-
+            #region V02
+            //Console.WriteLine("V02")
             //SeriesByTwo seriesbytwo = new SeriesByTwo();
             //SeriesByThree seriesbythree = new SeriesByThree();
             //SeriesByFour seriesbyfour = new SeriesByFour(); 
@@ -91,7 +93,7 @@ namespace DemoOOP03
             //    Console.Write($"{item}" + " ");    
             //}
 
-            //Console.WriteLine("V02")
+
             //Employee[] employees = new Employee[3]
             //{
             //    new Employee(){ Id = 1, Name = "Ahemd", Age = 22, Salary = 12000 } ,
@@ -104,7 +106,27 @@ namespace DemoOOP03
             //foreach (Employee item in employees)
             //{
             //    Console.WriteLine(item);   
-            //}
+            //} 
+            #endregion
+
+            #region V03
+            //Console.WriteLine("V03");
+
+            //Car car = new Car(); 
+
+            //car.Speed = 100;
+            //car.Forward(); 
+
+            //Airplane airplane = new Airplane();
+
+            //IMoveable moveable = airplane;
+            //moveable.Forward(); 
+
+            //IFlyabe flyabe = airplane;
+            //flyabe.Forward();    
+            #endregion
+
+
         }
     }
 }
