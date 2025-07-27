@@ -2,12 +2,15 @@ using DemoOOP03.Interface;
 using DemoOOP03.Interface_Ex01;
 using DemoOOP03.Interface_Ex02;
 using DemoOOP03.Interface_Ex03;
+using System.Collections;
+using System.Text;
 
 namespace DemoOOP03
 {
     internal class Program
     {
 
+        #region Func
         //static void PrintTenNumbers(SeriesByTwo series)
         //{
         //    for (int i = 0; i < 10; i++)
@@ -50,7 +53,9 @@ namespace DemoOOP03
         //    }
         //    Console.WriteLine();
         //    series.Reset();
-        //}
+        //} 
+        #endregion
+
         static void Main()
         {
             #region V01
@@ -125,6 +130,98 @@ namespace DemoOOP03
             //IFlyabe flyabe = airplane;
             //flyabe.Forward();    
             #endregion
+
+            #region V04
+            //Console.WriteLine("V04");
+
+
+            //int[] Arr01 = { 1 , 2 , 3 };
+            //int[] Arr02 = { 4 , 5 , 6 };
+
+            //string[] Arr01 = { "Ahmed", "Ali", "Omar" };
+            //string[] Arr02 = { "Amir", "Amr", "Ziad" };
+
+            // StringBuilder[] Arr01 = new StringBuilder[]
+            // {
+            //     new StringBuilder("Ahmed"),
+            //     new StringBuilder("Ali"),
+            //     new StringBuilder("Omar")
+            // };
+
+            // StringBuilder[] Arr02 = new StringBuilder[]
+            //{
+            //     new StringBuilder("Amr"),
+            //     new StringBuilder("Adel"),
+            //     new StringBuilder("Ziad")
+            //};
+
+            // Console.WriteLine();
+
+            // Console.WriteLine($"Arr01 : {Arr01.GetHashCode()}");
+            // Console.WriteLine($"Arr02 : {Arr02.GetHashCode()}");
+
+            // Arr02 = (StringBuilder[])Arr01.Clone(); 
+            // Arr02[0].Append( "Ahmed Adel");
+
+            // Console.WriteLine();
+
+            // Console.WriteLine(Arr01[0]);    
+
+            //Arr02 = (int[])Arr01.Clone(); 
+
+            //Console.WriteLine();    
+
+            //Console.WriteLine($"Arr01 : {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02 : {Arr02.GetHashCode()}");
+
+
+            //Arr02[0] = 100;
+            //Console.WriteLine(Arr01[0]); 
+            #endregion
+
+            #region V06
+            //Console.WriteLine("V05");
+
+            //Employee E01 = new Employee() { Id = 1, Name = "Ahmed", Age = 22, Salary = 12000 };
+            //Employee E02 = new Employee() { Id = 3, Name = "AMR", Age = 26, Salary = 14000 };
+
+            ////E02 = E01;
+            //E02 = (Employee)E01.Clone();
+            //E02 = new Employee(E01);
+
+            //E01.Salary = 5; 
+
+            //Console.WriteLine(E01.GetHashCode());
+            //Console.WriteLine(E02.GetHashCode());
+            //Console.WriteLine(E01);
+            //Console.WriteLine(E02); 
+            #endregion
+
+
+            #region V07
+            //Console.WriteLine("V07");
+
+            //Employee[] employees = new Employee[3]
+            //{
+            //    new Employee(){Id = 1 , Name = "Ahmed" , Age = 30 , Salary = 12000},
+            //    new Employee(){Id = 2 , Name = "Amr" , Age = 22 , Salary = 15000},
+            //    new Employee(){Id = 3 , Name = "Mostafa" , Age = 23 , Salary = 16000}
+
+            //};
+
+            //Array.Sort(employees);
+
+            ////int X  = employees[1].CompareTo(employees[0]);
+
+            //foreach (Employee item in employees)
+            //{
+
+            //    Console.WriteLine(item);
+            //}
+            ////Console.WriteLine(X);
+
+            #endregion
+
 
 
 
