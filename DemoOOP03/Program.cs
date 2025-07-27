@@ -2,12 +2,15 @@
 using DemoOOP03.Interface_Ex01;
 using DemoOOP03.Interface_Ex02;
 using DemoOOP03.Interface_Ex03;
+using System.Collections;
+using System.Text;
 
 namespace DemoOOP03
 {
     internal class Program
     {
 
+        #region Func
         //static void PrintTenNumbers(SeriesByTwo series)
         //{
         //    for (int i = 0; i < 10; i++)
@@ -50,7 +53,9 @@ namespace DemoOOP03
         //    }
         //    Console.WriteLine();
         //    series.Reset();
-        //}
+        //} 
+        #endregion
+
         static void Main()
         {
             #region V01
@@ -125,6 +130,56 @@ namespace DemoOOP03
             //IFlyabe flyabe = airplane;
             //flyabe.Forward();    
             #endregion
+
+            #region V04
+            //Console.WriteLine("V04");
+
+
+            //int[] Arr01 = { 1 , 2 , 3 };
+            //int[] Arr02 = { 4 , 5 , 6 };
+
+            //string[] Arr01 = { "Ahmed", "Ali", "Omar" };
+            //string[] Arr02 = { "Amir", "Amr", "Ziad" };
+
+            // StringBuilder[] Arr01 = new StringBuilder[]
+            // {
+            //     new StringBuilder("Ahmed"),
+            //     new StringBuilder("Ali"),
+            //     new StringBuilder("Omar")
+            // };
+
+            // StringBuilder[] Arr02 = new StringBuilder[]
+            //{
+            //     new StringBuilder("Amr"),
+            //     new StringBuilder("Adel"),
+            //     new StringBuilder("Ziad")
+            //};
+
+            // Console.WriteLine();
+
+            // Console.WriteLine($"Arr01 : {Arr01.GetHashCode()}");
+            // Console.WriteLine($"Arr02 : {Arr02.GetHashCode()}");
+
+            // Arr02 = (StringBuilder[])Arr01.Clone(); 
+            // Arr02[0].Append( "Ahmed Adel");
+
+            // Console.WriteLine();
+
+            // Console.WriteLine(Arr01[0]);    
+
+            //Arr02 = (int[])Arr01.Clone(); 
+
+            //Console.WriteLine();    
+
+            //Console.WriteLine($"Arr01 : {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02 : {Arr02.GetHashCode()}");
+
+
+            //Arr02[0] = 100;
+            //Console.WriteLine(Arr01[0]); 
+            #endregion
+
+
 
 
         }
